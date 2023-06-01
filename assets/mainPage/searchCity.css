@@ -1,0 +1,53 @@
+.searchCity {
+    width: 90%;
+    height: 35px;
+    margin-top: -750px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.searchCity__inp {
+    width: 255px;
+    height: 35px;
+    padding-left: 10px;
+    padding-right: 35px;
+    outline: none;
+    border-radius: 9px;
+    font-family: 'Sarabun';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 16px;
+    color: #ffffff;    
+    border: none;
+    background-color: transparent;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);    
+}
+.searchCity__button {
+    width: 35px;
+    height: 35px;
+    margin-left: -35px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    border-radius: 0px 9px 9px 0px;
+    -webkit-box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.09) inset;
+    -moz-box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.09) inset;
+    box-shadow: 0px 0px 100px 100px rgba(255, 255, 255, 0.09) inset;    
+}
+.searchCity__button__img {
+    width: 25px;
+    height: 25px;
+}
+
+@media (max-width:500px) {
+    .searchCity {
+        width: 90%;
+        height: 35px;
+        position: absolute;  
+        bottom: 95vh;
+    }  
+}
